@@ -1,67 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Web Form TCS Selenium Course</title>
-</head>
-<body style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 25px;">
-    <h1 style="font-weight: 200;">Complete Web Form</h1>
-    <section style="padding: 0 15px;">
-        <section>
-            <legend style="font-weight: bold; padding: 8px 0;">First name</legend>
-            <input type="text" name="firstName" id="firstName" form="all" placeholder="Enter first name" style="width: 50vw; padding: 5px; border-radius: 3px; border: solid 1px gray;">
-            <br><br>
-            <legend style="font-weight: bold; padding: 8px 0;">Last name</legend>
-            <input type="text" name="lasttName" id="lasttName" form="all" placeholder="Enter last name" style="width: 50vw; padding: 5px; border-radius: 3px; border: solid 1px gray;">
-            <br><br>
-            <legend style="font-weight: bold; padding: 8px 0;">Job title</legend>
-            <input type="text" name="jobTitle" id="jobTitle" form="all" placeholder="Enter your job title" style="width: 50vw; padding: 5px; border-radius: 3px; border: solid 1px gray;">
-        </section><br>
-        <form id="education">
-            <legend style="font-weight: bold; padding: 8px 0;">Highest level of education</legend>
-            <input type="radio" name="education" id="highSchool" value="High School">
-            <label for="highSchool">High School</label><br>
-            <input type="radio" name="education" id="college" value="College">
-            <label for="college">College</label><br>
-            <input type="radio" name="education" id="gradSchool" value="Grad School">
-            <label for="gradSchool">Grad School</label><br>
-        </form>
-        <form id="sex" style="padding: 15px 0;">
-            <legend style="font-weight: bold; padding: 8px 0;">Sex</legend>
-            <input type="checkbox" name="sex" id="male" value="male">
-            <label for="female">Male</label><br>
-            <input type="checkbox" name="sex" id="female" value="female">
-            <label for="female">Female</label><br>
-            <input type="checkbox" name="sex" id="noToSay" value="noToSay">
-            <label for="noToSay">Prefer No to Say</label><br>
-        </form>
-        <section>
-            <legend style="font-weight: bold; padding: 8px 0;">Years of Experience</legend>
-            <select name="experience" id="experience" style="padding: 5px; width: 25vw;">
-                <option value="0">Select an option </option>
-                <option value="1">Less than a year</option>
-                <option value="2">1 to 3 years</option>
-                <option value="3">3 to 5 years</option>
-                <option value="4">More than 5 years</option>
-            </select>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Web Form TCS Selenium Course</title>
+    </head>
+    <body style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 25px;">
+        <h1 style="font-weight: 200;">Complete Web Form</h1>
+        <section style="padding: 0 15px;">
+            <section>
+                <legend style="font-weight: bold; padding: 8px 0;">First name</legend>
+                <input type="text" name="firstName" id="firstName" form="all" placeholder="Enter first name" style="width: 50vw; padding: 5px; border-radius: 3px; border: solid 1px gray;">
+                <br><br>
+                <legend style="font-weight: bold; padding: 8px 0;">Last name</legend>
+                <input type="text" name="lasttName" id="lasttName" form="all" placeholder="Enter last name" style="width: 50vw; padding: 5px; border-radius: 3px; border: solid 1px gray;">
+                <br><br>
+                <legend style="font-weight: bold; padding: 8px 0;">Job title</legend>
+                <input type="text" name="jobTitle" id="jobTitle" form="all" placeholder="Enter your job title" style="width: 50vw; padding: 5px; border-radius: 3px; border: solid 1px gray;">
+            </section><br>
+            <form id="education">
+                <legend style="font-weight: bold; padding: 8px 0;">Highest level of education</legend>
+                <input type="radio" name="education" id="highSchool" value="High School">
+                <label for="highSchool">High School</label><br>
+                <input type="radio" name="education" id="college" value="College">
+                <label for="college">College</label><br>
+                <input type="radio" name="education" id="gradSchool" value="Grad School">
+                <label for="gradSchool">Grad School</label><br>
+            </form>
+            <form id="sex" style="padding: 15px 0;">
+                <legend style="font-weight: bold; padding: 8px 0;">Sex</legend>
+                <input type="checkbox" name="sex" id="male" value="male">
+                <label for="female">Male</label><br>
+                <input type="checkbox" name="sex" id="female" value="female">
+                <label for="female">Female</label><br>
+                <input type="checkbox" name="sex" id="noToSay" value="noToSay">
+                <label for="noToSay">Prefer No to Say</label><br>
+            </form>
+            <section>
+                <legend style="font-weight: bold; padding: 8px 0;">Years of Experience</legend>
+                <select name="experience" id="experience" style="padding: 5px; width: 25vw;">
+                    <option value="0">Select an option </option>
+                    <option value="1">Less than a year</option>
+                    <option value="2">1 to 3 years</option>
+                    <option value="3">3 to 5 years</option>
+                    <option value="4">More than 5 years</option>
+                </select>
+            </section>
+            <section style="padding: 15px 0 20px 0;">
+                <legend style="font-weight: bold; padding: 8px 0;">Date</legend>
+                <input type="date" name="date" id="date" value="date" style="padding: 5px; width: 23vw;">
+            </section>
+            <button type="submit" onclick="return confirm('You submitted the form succesfully.')"/ 
+                style=
+                "color: white;
+                background-color: dodgerblue;
+                padding: 10px 18px;
+                border-radius: 5px;
+                border: none;
+                font-size: large;
+                cursor: pointer;
+                ">Submit </button>
         </section>
-        <section style="padding: 15px 0 20px 0;">
-            <legend style="font-weight: bold; padding: 8px 0;">Date</legend>
-            <input type="date" name="date" id="date" value="date" style="padding: 5px; width: 23vw;">
-        </section>
-        <button type="submit" onclick="return confirm('You submitted the form succesfully.')"/ 
-            style=
-            "color: white;
-            background-color: dodgerblue;
-            padding: 10px 18px;
-            border-radius: 5px;
-            border: none;
-            font-size: large;
-            cursor: pointer;
-            ">Submit </button>
-    </section>
-    <script>
-    </script>
-</body>
+    </body>
 </html>
